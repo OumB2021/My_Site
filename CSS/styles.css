@@ -1,3 +1,24 @@
+div{
+    background-color: aqua;
+    margin: 0px;
+}
+
 body{
+    margin: 0;
+}
+
+h1{
+    margin-top:0;
+}
+
+.firstone{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.secondone{
     background-color: blue;
+    height: 200px;
+    width: 200px;
 }
