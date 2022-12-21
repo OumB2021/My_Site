@@ -4,15 +4,10 @@ body{
     text-align: center;
 }
 
-.firstone{
+.first-container{
     position: relative;
     padding-top: 100px;
-    background-color: aqua;
-}
-
-.secondone{
-    height: 100px;
-    width: 100px;
+    background-color: rgb(174, 249, 249);
 }
 
 h1{
