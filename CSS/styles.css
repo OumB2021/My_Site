@@ -1,27 +1,133 @@
 
+p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 
 .first-container{
     position: relative;
     padding-top: 100px;
-    background-color: rgb(174, 249, 249);
+    background-color: #EAF6F6;
+}
+
+a{
+    color: #11999E;
 }
 
 h1{
-    margin-top:0;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    font-size: 563%;
+    color: #66BFBF;
+    line-height: double;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
 }
 
 .bottomcloud{
     position: absolute;
-    left: 200px;
+    left: 300px;
     bottom: 300px;
 }
 
 .topcloud{
     position: absolute;
-    right: 200px;
+    right: 300px;
     top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.profile{
+    width: 25%;
+    margin: 0 auto 100px auto;
+    padding-top: 100px;
+}
+.skills{
+    text-align: center;
+}
+
+.code-img{
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+hr{
+    width: 4em;
+    border-width: 0.5em;
+    border-style: dotted none none none;
+    color: #d2d4d4;
+    margin-top: 6.25em; margin-bottom: 6.25em;
+}
+
+.funny{
+    margin-bottom: 40px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 1.5em;
+    color: white;
+    background: linear-gradient(#11cdd4, #11999e);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.contact-me{
+    padding-bottom: 100px;
+}
+
+.contact{
+    margin-bottom: 70px;
+}
+
+.bottom-container{
+    position: relative;
+    background-color: #66BFBF;
+    padding-top: 100px;
+
+}
+
+.copyright{
+    color: white;
+    font-weight: normal;
+    position: relative;
+    bottom: 25px;
+}
+
+.footer-link{
+    position: relative;
+    color: #11999E;
+    text-decoration: none;
+    bottom: 50px;
+    margin: 0 20px 0 20px;
+    font-weight: bold;
 }
